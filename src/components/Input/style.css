@@ -1,0 +1,28 @@
+.input{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #e2e0e063;
+    padding: 0 .5rem;
+}
+.input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: .7em;
+    background-color: transparent;
+}
+.input input::placeholder{
+    font-weight: bold;
+    color: #0000009d;
+}
+.input svg{
+    color: #D9116E;
+    font-size: 1.3rem;
+}
+.msgError{
+    font-size: .7rem;
+    font-weight: 700;
+    color: #e71a28be;
+}

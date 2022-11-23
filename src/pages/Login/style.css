@@ -1,0 +1,101 @@
+main {
+    max-width: 1280px;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    box-shadow: 2px 3px 11px #00000075;
+    background-color: #FFFFFF;
+}
+
+.leftSide {
+    width: 350px;
+    padding: 3rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    width: 60px;
+}
+.header > span{
+    font-size: .8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.header > span > svg{
+    font-size: 1.2rem;
+}
+.formLeft{
+    margin-bottom: 10rem;
+}
+.formLeft > h1{
+    color: #000000;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+.formLeft .inputContainer {
+    margin: 1.2rem 0;
+}
+
+.staySigned label{
+    font-size: .8rem;
+    position: relative;
+    color:#8b8b8bab;
+}
+.staySigned label input{
+    margin-right: .5rem;
+    position: relative;
+    top: 1px;
+}
+.BannerRight {
+    flex: 1;
+    background-image: url("../../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BannerRight{
+    display: flex;
+    align-items: center;
+}
+.btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.login{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+   
+    border: 2px solid rgba(250, 18, 18, 0.589);
+    font-size: 1.5rem;
+    color: rgba(250, 18, 18, 0.589);
+    transition: 200ms;
+    cursor: pointer;
+}
+.login:disabled{
+    border: 2px solid #e2e0e0ab;
+    color: #e2e0e0ab;
+}
+.menuBottom{
+    display: flex;
+    flex-direction: column;
+}
+.menuBottom a {
+    font-size: .8rem;
+    text-decoration: none;
+    color: #b1b1b1ab;
+}
+.menuBottom a:hover{
+    color: #8b8b8bab;
+}
